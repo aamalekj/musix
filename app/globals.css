@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 :root {
-  --background: hsl(34, 100%, 91%);
-  --foreground: #000000;
+  --background: #303030;
+  --foreground: #ffffff;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: hsl(35, 100%, 95%) ;
+    --background: #000000 ;
     --foreground: #000000;
   }
 }
@@ -78,4 +78,9 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+.gradient-text {
+  background: linear-gradient(to right,#c4b5fd, #6057ff,#4f46e5,#6057ff,#c4b5fd,#6057ff,#4f46e5);
+  background-size: 300% 300%;
+  background-clip: text;
 }
