@@ -15,6 +15,7 @@ const config: Config = {
         Inter: ['Inter', 'sans-serif'],
         Outfit: ['Outfit', 'sans-serif'],
         Playfair: ['Playfair', 'sans-serif'],
+        Lato: ['Lato', 'sans-serif'],
       },
       keyframes: {
         gradient: {
